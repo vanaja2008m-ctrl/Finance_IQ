@@ -4,14 +4,14 @@ from huggingface_hub import InferenceClient
 @st.cache_resource
 def get_hf_client():
     """Initialize the Hugging Face Inference Client using Streamlit Secrets."""
-    # Read the token from Streamlit's secure secrets manager
     token = st.secrets.get("HF_TOKEN", "")
     
     if not token or token == "your_huggingface_token_here":
         return None
         
+    # Switched to Phi-3-mini: Highly reliable, fast, and fully supported on the free HF Inference API
     return InferenceClient(
-        model="Qwen/Qwen2.5-1.5B-Instruct", # Small, fast, and highly capable
+        model="microsoft/Phi-3-mini-4k-instruct",
         token=token
     )
 
