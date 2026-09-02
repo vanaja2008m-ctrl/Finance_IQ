@@ -1,0 +1,822 @@
+date,category,subcategory,amount,type,is_recurring,description
+2023-01-11,Shopping,Personal Care,121.07,expense,False,Personal Care - Jan 2023
+2023-01-11,Housing,Utilities,182.85,expense,False,Utilities - Jan 2023
+2023-01-12,Shopping,Clothing,315.43,expense,False,Clothing - Jan 2023
+2023-01-12,Income,Salary,6452.41,income,True,Monthly Salary - Jan 2023
+2023-01-13,Miscellaneous,Gifts,222.02,expense,False,Gifts - Jan 2023
+2023-01-13,Transport,Car Insurance,315.92,expense,True,Car Insurance - Jan 2023
+2023-01-13,Savings,Investments,239.27,expense,True,Investments - Jan 2023
+2023-01-14,Housing,Mortgage,173.02,expense,True,Mortgage - Jan 2023
+2023-01-15,Savings,Investments,170.29,expense,True,Investments - Jan 2023
+2023-01-17,Travel,Hotels,88.27,expense,False,Hotels - Jan 2023
+2023-01-17,Savings,Investments,389.61,expense,True,Investments - Jan 2023
+2023-01-17,Housing,Maintenance,783.43,expense,False,Maintenance - Jan 2023
+2023-01-18,Food,Groceries,250.6,expense,False,Groceries - Jan 2023
+2023-01-20,Housing,Mortgage,937.51,expense,True,Mortgage - Jan 2023
+2023-01-21,Housing,Maintenance,253.35,expense,False,Maintenance - Jan 2023
+2023-01-24,Entertainment,Streaming,54.21,expense,True,Streaming - Jan 2023
+2023-01-24,Food,Coffee,205.01,expense,False,Coffee - Jan 2023
+2023-01-25,Miscellaneous,Charity,49.76,expense,False,Charity - Jan 2023
+2023-01-25,Housing,Maintenance,386.84,expense,False,Maintenance - Jan 2023
+2023-01-25,Housing,Mortgage,414.73,expense,True,Mortgage - Jan 2023
+2023-01-26,Travel,Flights,49.09,expense,False,Flights - Jan 2023
+2023-01-26,Housing,Mortgage,163.52,expense,True,Mortgage - Jan 2023
+2023-01-26,Transport,Public Transit,191.06,expense,False,Public Transit - Jan 2023
+2023-01-28,Healthcare,Doctor,87.51,expense,False,Doctor - Jan 2023
+2023-01-31,Savings,Retirement,110.26,expense,False,Retirement - Jan 2023
+2023-01-31,Entertainment,Games,88.83,expense,False,Games - Jan 2023
+2023-02-01,Education,Courses,131.5,expense,False,Courses - Feb 2023
+2023-02-01,Shopping,Electronics,135.95,expense,False,Electronics - Feb 2023
+2023-02-02,Housing,Rent,407.23,expense,True,Rent - Feb 2023
+2023-02-02,Food,Groceries,317.42,expense,False,Groceries - Feb 2023
+2023-02-03,Housing,Rent,567.23,expense,True,Rent - Feb 2023
+2023-02-03,Housing,Rent,408.05,expense,True,Rent - Feb 2023
+2023-02-03,Food,Restaurants,333.83,expense,False,Restaurants - Feb 2023
+2023-02-04,Food,Coffee,231.69,expense,False,Coffee - Feb 2023
+2023-02-04,Travel,Flights,167.71,expense,False,Flights - Feb 2023
+2023-02-05,Healthcare,Insurance,39.54,expense,False,Insurance - Feb 2023
+2023-02-05,Housing,Mortgage,681.82,expense,True,Mortgage - Feb 2023
+2023-02-07,Food,Groceries,279.93,expense,False,Groceries - Feb 2023
+2023-02-07,Food,Groceries,217.25,expense,False,Groceries - Feb 2023
+2023-02-10,Transport,Parking,233.31,expense,False,Parking - Feb 2023
+2023-02-10,Savings,Retirement,73.3,expense,False,Retirement - Feb 2023
+2023-02-11,Housing,Mortgage,394.45,expense,True,Mortgage - Feb 2023
+2023-02-11,Income,Salary,6802.29,income,True,Monthly Salary - Feb 2023
+2023-02-11,Shopping,Clothing,157.3,expense,False,Clothing - Feb 2023
+2023-02-12,Healthcare,Pharmacy,113.38,expense,False,Pharmacy - Feb 2023
+2023-02-12,Housing,Rent,426.21,expense,True,Rent - Feb 2023
+2023-02-13,Entertainment,Movies,90.23,expense,False,Movies - Feb 2023
+2023-02-13,Transport,Uber/Lyft,153.09,expense,False,Uber/Lyft - Feb 2023
+2023-02-14,Food,Delivery,349.07,expense,False,Delivery - Feb 2023
+2023-02-14,Shopping,Personal Care,178.53,expense,False,Personal Care - Feb 2023
+2023-02-15,Housing,Mortgage,350.19,expense,True,Mortgage - Feb 2023
+2023-02-16,Miscellaneous,Gifts,119.99,expense,False,Gifts - Feb 2023
+2023-02-17,Housing,Rent,500.32,expense,True,Rent - Feb 2023
+2023-02-17,Education,Tuition,38.08,expense,True,Tuition - Feb 2023
+2023-02-17,Savings,Retirement,296.9,expense,False,Retirement - Feb 2023
+2023-02-18,Miscellaneous,Other,202.94,expense,False,Other - Feb 2023
+2023-02-19,Entertainment,Games,106.49,expense,False,Games - Feb 2023
+2023-02-20,Food,Groceries,316.72,expense,False,Groceries - Feb 2023
+2023-02-23,Savings,Emergency Fund,255.61,expense,True,Emergency Fund - Feb 2023
+2023-02-24,Travel,Flights,53.38,expense,False,Flights - Feb 2023
+2023-02-25,Entertainment,Games,64.45,expense,False,Games - Feb 2023
+2023-02-25,Housing,Utilities,464.84,expense,False,Utilities - Feb 2023
+2023-02-25,Housing,Rent,1048.37,expense,True,Rent - Feb 2023
+2023-02-25,Transport,Car Insurance,210.87,expense,True,Car Insurance - Feb 2023
+2023-02-27,Savings,Investments,117.04,expense,True,Investments - Feb 2023
+2023-02-27,Food,Restaurants,215.01,expense,False,Restaurants - Feb 2023
+2023-02-28,Food,Coffee,393.31,expense,False,Coffee - Feb 2023
+2023-02-28,Housing,Utilities,302.59,expense,False,Utilities - Feb 2023
+2023-03-01,Housing,Maintenance,1026.51,expense,False,Maintenance - Mar 2023
+2023-03-02,Savings,Investments,196.87,expense,True,Investments - Mar 2023
+2023-03-02,Shopping,Electronics,181.38,expense,False,Electronics - Mar 2023
+2023-03-03,Food,Coffee,81.71,expense,False,Coffee - Mar 2023
+2023-03-03,Miscellaneous,Gifts,134.21,expense,False,Gifts - Mar 2023
+2023-03-03,Transport,Public Transit,107.21,expense,False,Public Transit - Mar 2023
+2023-03-04,Food,Restaurants,179.72,expense,False,Restaurants - Mar 2023
+2023-03-04,Savings,Investments,102.88,expense,True,Investments - Mar 2023
+2023-03-05,Housing,Utilities,615.29,expense,False,Utilities - Mar 2023
+2023-03-05,Savings,Investments,115.66,expense,True,Investments - Mar 2023
+2023-03-06,Housing,Mortgage,543.85,expense,True,Mortgage - Mar 2023
+2023-03-07,Food,Coffee,212.39,expense,False,Coffee - Mar 2023
+2023-03-07,Transport,Parking,215.48,expense,False,Parking - Mar 2023
+2023-03-08,Food,Restaurants,142.58,expense,False,Restaurants - Mar 2023
+2023-03-08,Savings,Emergency Fund,302.69,expense,True,Emergency Fund - Mar 2023
+2023-03-08,Transport,Fuel,110.8,expense,False,Fuel - Mar 2023
+2023-03-08,Healthcare,Gym,168.54,expense,True,Gym - Mar 2023
+2023-03-09,Healthcare,Insurance,82.07,expense,False,Insurance - Mar 2023
+2023-03-09,Savings,Emergency Fund,445.69,expense,True,Emergency Fund - Mar 2023
+2023-03-09,Savings,Investments,160.97,expense,True,Investments - Mar 2023
+2023-03-09,Travel,Hotels,219.96,expense,False,Hotels - Mar 2023
+2023-03-09,Housing,Mortgage,321.78,expense,True,Mortgage - Mar 2023
+2023-03-09,Transport,Car Insurance,135.02,expense,True,Car Insurance - Mar 2023
+2023-03-12,Savings,Investments,158.77,expense,True,Investments - Mar 2023
+2023-03-12,Shopping,Personal Care,227.2,expense,False,Personal Care - Mar 2023
+2023-03-13,Income,Salary,6652.15,income,True,Monthly Salary - Mar 2023
+2023-03-15,Entertainment,Events,88.56,expense,False,Events - Mar 2023
+2023-03-16,Transport,Public Transit,61.24,expense,False,Public Transit - Mar 2023
+2023-03-16,Savings,Retirement,84.54,expense,False,Retirement - Mar 2023
+2023-03-16,Housing,Rent,314.11,expense,True,Rent - Mar 2023
+2023-03-17,Savings,Retirement,181.69,expense,False,Retirement - Mar 2023
+2023-03-20,Entertainment,Games,107.28,expense,False,Games - Mar 2023
+2023-03-20,Housing,Utilities,452.62,expense,False,Utilities - Mar 2023
+2023-03-20,Healthcare,Pharmacy,223.83,expense,False,Pharmacy - Mar 2023
+2023-03-20,Entertainment,Streaming,109.52,expense,True,Streaming - Mar 2023
+2023-03-22,Savings,Retirement,295.13,expense,False,Retirement - Mar 2023
+2023-03-23,Housing,Mortgage,722.4,expense,True,Mortgage - Mar 2023
+2023-03-23,Housing,Mortgage,568.88,expense,True,Mortgage - Mar 2023
+2023-03-24,Savings,Retirement,100.55,expense,False,Retirement - Mar 2023
+2023-03-24,Entertainment,Events,135.0,expense,False,Events - Mar 2023
+2023-03-25,Education,Books,43.75,expense,False,Books - Mar 2023
+2023-03-27,Healthcare,Doctor,90.46,expense,False,Doctor - Mar 2023
+2023-03-27,Housing,Maintenance,618.71,expense,False,Maintenance - Mar 2023
+2023-03-27,Housing,Mortgage,791.76,expense,True,Mortgage - Mar 2023
+2023-03-27,Education,Courses,88.37,expense,False,Courses - Mar 2023
+2023-03-28,Shopping,Clothing,262.46,expense,False,Clothing - Mar 2023
+2023-03-28,Entertainment,Movies,68.4,expense,False,Movies - Mar 2023
+2023-03-28,Food,Coffee,189.45,expense,False,Coffee - Mar 2023
+2023-03-29,Healthcare,Pharmacy,93.54,expense,False,Pharmacy - Mar 2023
+2023-03-31,Housing,Maintenance,826.29,expense,False,Maintenance - Mar 2023
+2023-04-01,Transport,Parking,179.8,expense,False,Parking - Apr 2023
+2023-04-02,Food,Groceries,524.0,expense,False,Groceries - Apr 2023
+2023-04-03,Miscellaneous,Pet,71.89,expense,False,Pet - Apr 2023
+2023-04-03,Savings,Emergency Fund,99.43,expense,True,Emergency Fund - Apr 2023
+2023-04-04,Housing,Utilities,311.83,expense,False,Utilities - Apr 2023
+2023-04-05,Miscellaneous,Pet,93.67,expense,False,Pet - Apr 2023
+2023-04-05,Housing,Maintenance,453.94,expense,False,Maintenance - Apr 2023
+2023-04-06,Travel,Flights,77.05,expense,False,Flights - Apr 2023
+2023-04-06,Food,Coffee,191.26,expense,False,Coffee - Apr 2023
+2023-04-06,Transport,Public Transit,152.31,expense,False,Public Transit - Apr 2023
+2023-04-06,Shopping,Personal Care,196.84,expense,False,Personal Care - Apr 2023
+2023-04-07,Savings,Retirement,88.21,expense,False,Retirement - Apr 2023
+2023-04-11,Healthcare,Gym,59.45,expense,True,Gym - Apr 2023
+2023-04-11,Education,Courses,47.2,expense,False,Courses - Apr 2023
+2023-04-12,Income,Salary,6846.74,income,True,Monthly Salary - Apr 2023
+2023-04-13,Shopping,Electronics,114.55,expense,False,Electronics - Apr 2023
+2023-04-13,Housing,Rent,277.24,expense,True,Rent - Apr 2023
+2023-04-14,Housing,Rent,626.9,expense,True,Rent - Apr 2023
+2023-04-14,Miscellaneous,Pet,182.4,expense,False,Pet - Apr 2023
+2023-04-17,Education,Books,51.19,expense,False,Books - Apr 2023
+2023-04-17,Travel,Hotels,87.03,expense,False,Hotels - Apr 2023
+2023-04-23,Transport,Uber/Lyft,140.34,expense,False,Uber/Lyft - Apr 2023
+2023-04-23,Miscellaneous,Gifts,56.24,expense,False,Gifts - Apr 2023
+2023-04-26,Miscellaneous,Other,190.56,expense,False,Other - Apr 2023
+2023-04-29,Miscellaneous,Charity,105.27,expense,False,Charity - Apr 2023
+2023-05-01,Food,Delivery,383.02,expense,False,Delivery - May 2023
+2023-05-01,Miscellaneous,Gifts,173.16,expense,False,Gifts - May 2023
+2023-05-04,Travel,Flights,128.69,expense,False,Flights - May 2023
+2023-05-05,Savings,Retirement,269.92,expense,False,Retirement - May 2023
+2023-05-05,Entertainment,Games,48.53,expense,False,Games - May 2023
+2023-05-06,Shopping,Electronics,79.38,expense,False,Electronics - May 2023
+2023-05-06,Housing,Mortgage,131.72,expense,True,Mortgage - May 2023
+2023-05-08,Housing,Rent,298.34,expense,True,Rent - May 2023
+2023-05-11,Food,Groceries,97.45,expense,False,Groceries - May 2023
+2023-05-11,Transport,Uber/Lyft,252.24,expense,False,Uber/Lyft - May 2023
+2023-05-11,Transport,Uber/Lyft,184.2,expense,False,Uber/Lyft - May 2023
+2023-05-11,Food,Delivery,482.86,expense,False,Delivery - May 2023
+2023-05-11,Food,Restaurants,270.5,expense,False,Restaurants - May 2023
+2023-05-12,Income,Salary,6269.05,income,True,Monthly Salary - May 2023
+2023-05-12,Travel,Activities,93.09,expense,False,Activities - May 2023
+2023-05-12,Shopping,Home Goods,104.09,expense,False,Home Goods - May 2023
+2023-05-13,Shopping,Clothing,74.97,expense,False,Clothing - May 2023
+2023-05-14,Housing,Utilities,649.56,expense,False,Utilities - May 2023
+2023-05-15,Housing,Maintenance,405.83,expense,False,Maintenance - May 2023
+2023-05-15,Housing,Maintenance,99.02,expense,False,Maintenance - May 2023
+2023-05-15,Savings,Emergency Fund,129.34,expense,True,Emergency Fund - May 2023
+2023-05-16,Shopping,Clothing,194.58,expense,False,Clothing - May 2023
+2023-05-16,Savings,Emergency Fund,127.4,expense,True,Emergency Fund - May 2023
+2023-05-16,Food,Groceries,555.24,expense,False,Groceries - May 2023
+2023-05-18,Shopping,Home Goods,89.33,expense,False,Home Goods - May 2023
+2023-05-18,Miscellaneous,Other,207.08,expense,False,Other - May 2023
+2023-05-19,Healthcare,Pharmacy,156.69,expense,False,Pharmacy - May 2023
+2023-05-20,Miscellaneous,Charity,32.75,expense,False,Charity - May 2023
+2023-05-21,Food,Restaurants,161.08,expense,False,Restaurants - May 2023
+2023-05-23,Travel,Activities,22.91,expense,False,Activities - May 2023
+2023-05-23,Food,Delivery,495.74,expense,False,Delivery - May 2023
+2023-05-23,Food,Coffee,255.35,expense,False,Coffee - May 2023
+2023-05-23,Healthcare,Insurance,113.81,expense,False,Insurance - May 2023
+2023-05-25,Transport,Public Transit,128.68,expense,False,Public Transit - May 2023
+2023-05-25,Housing,Mortgage,728.66,expense,True,Mortgage - May 2023
+2023-05-25,Transport,Public Transit,173.67,expense,False,Public Transit - May 2023
+2023-05-25,Housing,Mortgage,731.54,expense,True,Mortgage - May 2023
+2023-05-25,Savings,Retirement,94.62,expense,False,Retirement - May 2023
+2023-05-25,Housing,Mortgage,472.7,expense,True,Mortgage - May 2023
+2023-05-25,Shopping,Electronics,78.8,expense,False,Electronics - May 2023
+2023-05-26,Miscellaneous,Gifts,116.14,expense,False,Gifts - May 2023
+2023-05-26,Housing,Rent,808.1,expense,True,Rent - May 2023
+2023-05-26,Housing,Rent,130.86,expense,True,Rent - May 2023
+2023-05-27,Healthcare,Insurance,151.31,expense,False,Insurance - May 2023
+2023-05-27,Transport,Car Insurance,225.09,expense,True,Car Insurance - May 2023
+2023-05-27,Savings,Retirement,114.68,expense,False,Retirement - May 2023
+2023-05-28,Transport,Public Transit,161.6,expense,False,Public Transit - May 2023
+2023-05-29,Entertainment,Streaming,70.02,expense,True,Streaming - May 2023
+2023-05-31,Shopping,Clothing,91.42,expense,False,Clothing - May 2023
+2023-05-31,Education,Books,86.79,expense,False,Books - May 2023
+2023-06-01,Food,Delivery,389.6,expense,False,Delivery - Jun 2023
+2023-06-02,Healthcare,Gym,128.94,expense,True,Gym - Jun 2023
+2023-06-02,Miscellaneous,Charity,205.34,expense,False,Charity - Jun 2023
+2023-06-03,Savings,Investments,145.63,expense,True,Investments - Jun 2023
+2023-06-04,Food,Groceries,79.11,expense,False,Groceries - Jun 2023
+2023-06-05,Housing,Mortgage,256.65,expense,True,Mortgage - Jun 2023
+2023-06-05,Housing,Maintenance,1098.06,expense,False,Maintenance - Jun 2023
+2023-06-06,Housing,Maintenance,735.66,expense,False,Maintenance - Jun 2023
+2023-06-10,Housing,Maintenance,448.67,expense,False,Maintenance - Jun 2023
+2023-06-10,Food,Groceries,138.81,expense,False,Groceries - Jun 2023
+2023-06-11,Housing,Rent,374.95,expense,True,Rent - Jun 2023
+2023-06-11,Income,Salary,6755.39,income,True,Monthly Salary - Jun 2023
+2023-06-12,Education,Books,44.5,expense,False,Books - Jun 2023
+2023-06-13,Housing,Utilities,900.67,expense,False,Utilities - Jun 2023
+2023-06-13,Shopping,Home Goods,97.2,expense,False,Home Goods - Jun 2023
+2023-06-14,Food,Restaurants,123.41,expense,False,Restaurants - Jun 2023
+2023-06-17,Food,Restaurants,386.63,expense,False,Restaurants - Jun 2023
+2023-06-17,Healthcare,Pharmacy,175.89,expense,False,Pharmacy - Jun 2023
+2023-06-18,Entertainment,Events,62.23,expense,False,Events - Jun 2023
+2023-06-20,Housing,Mortgage,924.81,expense,True,Mortgage - Jun 2023
+2023-06-20,Healthcare,Insurance,79.24,expense,False,Insurance - Jun 2023
+2023-06-21,Savings,Retirement,74.25,expense,False,Retirement - Jun 2023
+2023-06-21,Food,Delivery,395.7,expense,False,Delivery - Jun 2023
+2023-06-26,Transport,Public Transit,84.08,expense,False,Public Transit - Jun 2023
+2023-06-28,Entertainment,Movies,25.08,expense,False,Movies - Jun 2023
+2023-06-29,Housing,Rent,219.02,expense,True,Rent - Jun 2023
+2023-07-01,Savings,Investments,228.13,expense,True,Investments - Jul 2023
+2023-07-02,Transport,Parking,295.33,expense,False,Parking - Jul 2023
+2023-07-02,Shopping,Clothing,168.85,expense,False,Clothing - Jul 2023
+2023-07-04,Food,Delivery,153.79,expense,False,Delivery - Jul 2023
+2023-07-05,Healthcare,Pharmacy,88.11,expense,False,Pharmacy - Jul 2023
+2023-07-10,Savings,Retirement,356.93,expense,False,Retirement - Jul 2023
+2023-07-10,Housing,Maintenance,641.14,expense,False,Maintenance - Jul 2023
+2023-07-11,Income,Salary,6076.74,income,True,Monthly Salary - Jul 2023
+2023-07-13,Entertainment,Events,108.46,expense,False,Events - Jul 2023
+2023-07-13,Housing,Maintenance,659.57,expense,False,Maintenance - Jul 2023
+2023-07-13,Education,Courses,93.45,expense,False,Courses - Jul 2023
+2023-07-13,Miscellaneous,Pet,101.89,expense,False,Pet - Jul 2023
+2023-07-15,Food,Delivery,181.94,expense,False,Delivery - Jul 2023
+2023-07-15,Healthcare,Insurance,101.08,expense,False,Insurance - Jul 2023
+2023-07-17,Savings,Investments,109.36,expense,True,Investments - Jul 2023
+2023-07-17,Miscellaneous,Charity,69.23,expense,False,Charity - Jul 2023
+2023-07-19,Housing,Maintenance,446.1,expense,False,Maintenance - Jul 2023
+2023-07-20,Food,Restaurants,314.32,expense,False,Restaurants - Jul 2023
+2023-07-21,Savings,Investments,93.38,expense,True,Investments - Jul 2023
+2023-07-23,Housing,Maintenance,452.49,expense,False,Maintenance - Jul 2023
+2023-07-24,Savings,Emergency Fund,132.91,expense,True,Emergency Fund - Jul 2023
+2023-07-24,Savings,Investments,156.17,expense,True,Investments - Jul 2023
+2023-07-28,Housing,Mortgage,372.18,expense,True,Mortgage - Jul 2023
+2023-07-29,Miscellaneous,Gifts,120.0,expense,False,Gifts - Jul 2023
+2023-07-29,Savings,Retirement,195.1,expense,False,Retirement - Jul 2023
+2023-07-31,Healthcare,Doctor,187.34,expense,False,Doctor - Jul 2023
+2023-08-02,Housing,Utilities,143.78,expense,False,Utilities - Aug 2023
+2023-08-04,Food,Groceries,206.7,expense,False,Groceries - Aug 2023
+2023-08-04,Healthcare,Pharmacy,102.53,expense,False,Pharmacy - Aug 2023
+2023-08-05,Healthcare,Doctor,90.32,expense,False,Doctor - Aug 2023
+2023-08-05,Healthcare,Pharmacy,117.52,expense,False,Pharmacy - Aug 2023
+2023-08-10,Income,Salary,6160.54,income,True,Monthly Salary - Aug 2023
+2023-08-10,Transport,Public Transit,299.17,expense,False,Public Transit - Aug 2023
+2023-08-10,Healthcare,Doctor,173.86,expense,False,Doctor - Aug 2023
+2023-08-11,Food,Restaurants,322.54,expense,False,Restaurants - Aug 2023
+2023-08-11,Housing,Rent,528.03,expense,True,Rent - Aug 2023
+2023-08-12,Savings,Investments,125.5,expense,True,Investments - Aug 2023
+2023-08-13,Travel,Hotels,84.79,expense,False,Hotels - Aug 2023
+2023-08-13,Housing,Utilities,998.98,expense,False,Utilities - Aug 2023
+2023-08-14,Healthcare,Pharmacy,119.91,expense,False,Pharmacy - Aug 2023
+2023-08-14,Savings,Investments,143.18,expense,True,Investments - Aug 2023
+2023-08-15,Housing,Rent,520.87,expense,True,Rent - Aug 2023
+2023-08-16,Housing,Maintenance,516.11,expense,False,Maintenance - Aug 2023
+2023-08-16,Shopping,Electronics,266.82,expense,False,Electronics - Aug 2023
+2023-08-16,Food,Delivery,125.9,expense,False,Delivery - Aug 2023
+2023-08-17,Housing,Rent,853.68,expense,True,Rent - Aug 2023
+2023-08-18,Miscellaneous,Gifts,66.91,expense,False,Gifts - Aug 2023
+2023-08-18,Travel,Flights,180.93,expense,False,Flights - Aug 2023
+2023-08-18,Housing,Rent,308.37,expense,True,Rent - Aug 2023
+2023-08-20,Miscellaneous,Pet,111.92,expense,False,Pet - Aug 2023
+2023-08-21,Savings,Emergency Fund,148.44,expense,True,Emergency Fund - Aug 2023
+2023-08-21,Shopping,Clothing,70.4,expense,False,Clothing - Aug 2023
+2023-08-21,Housing,Utilities,622.41,expense,False,Utilities - Aug 2023
+2023-08-22,Food,Coffee,270.38,expense,False,Coffee - Aug 2023
+2023-08-24,Housing,Mortgage,690.28,expense,True,Mortgage - Aug 2023
+2023-08-25,Shopping,Home Goods,58.59,expense,False,Home Goods - Aug 2023
+2023-08-26,Savings,Emergency Fund,272.06,expense,True,Emergency Fund - Aug 2023
+2023-08-26,Housing,Utilities,827.68,expense,False,Utilities - Aug 2023
+2023-08-26,Healthcare,Pharmacy,273.21,expense,False,Pharmacy - Aug 2023
+2023-08-27,Entertainment,Games,175.78,expense,False,Games - Aug 2023
+2023-08-29,Housing,Maintenance,347.49,expense,False,Maintenance - Aug 2023
+2023-08-29,Savings,Investments,107.07,expense,True,Investments - Aug 2023
+2023-08-29,Housing,Mortgage,314.53,expense,True,Mortgage - Aug 2023
+2023-08-29,Shopping,Electronics,164.1,expense,False,Electronics - Aug 2023
+2023-08-30,Housing,Rent,504.18,expense,True,Rent - Aug 2023
+2023-08-30,Housing,Maintenance,661.26,expense,False,Maintenance - Aug 2023
+2023-08-30,Food,Groceries,424.01,expense,False,Groceries - Aug 2023
+2023-08-30,Shopping,Electronics,167.81,expense,False,Electronics - Aug 2023
+2023-08-31,Food,Restaurants,216.49,expense,False,Restaurants - Aug 2023
+2023-08-31,Entertainment,Streaming,93.78,expense,True,Streaming - Aug 2023
+2023-08-31,Housing,Mortgage,715.15,expense,True,Mortgage - Aug 2023
+2023-08-31,Transport,Car Insurance,120.65,expense,True,Car Insurance - Aug 2023
+2023-08-31,Shopping,Clothing,124.23,expense,False,Clothing - Aug 2023
+2023-08-31,Housing,Maintenance,544.88,expense,False,Maintenance - Aug 2023
+2023-09-02,Housing,Utilities,633.03,expense,False,Utilities - Sep 2023
+2023-09-02,Entertainment,Games,198.55,expense,False,Games - Sep 2023
+2023-09-03,Healthcare,Doctor,123.47,expense,False,Doctor - Sep 2023
+2023-09-04,Food,Groceries,136.84,expense,False,Groceries - Sep 2023
+2023-09-04,Housing,Rent,550.0,expense,True,Rent - Sep 2023
+2023-09-05,Housing,Maintenance,485.29,expense,False,Maintenance - Sep 2023
+2023-09-09,Income,Salary,6094.4,income,True,Monthly Salary - Sep 2023
+2023-09-09,Housing,Rent,636.03,expense,True,Rent - Sep 2023
+2023-09-09,Entertainment,Games,174.3,expense,False,Games - Sep 2023
+2023-09-09,Shopping,Home Goods,84.2,expense,False,Home Goods - Sep 2023
+2023-09-10,Housing,Rent,327.09,expense,True,Rent - Sep 2023
+2023-09-15,Travel,Flights,61.0,expense,False,Flights - Sep 2023
+2023-09-19,Housing,Rent,445.92,expense,True,Rent - Sep 2023
+2023-09-19,Miscellaneous,Pet,59.13,expense,False,Pet - Sep 2023
+2023-09-22,Travel,Flights,61.2,expense,False,Flights - Sep 2023
+2023-09-23,Food,Coffee,127.21,expense,False,Coffee - Sep 2023
+2023-09-23,Miscellaneous,Gifts,69.6,expense,False,Gifts - Sep 2023
+2023-09-24,Healthcare,Doctor,94.97,expense,False,Doctor - Sep 2023
+2023-09-24,Savings,Retirement,361.26,expense,False,Retirement - Sep 2023
+2023-09-24,Transport,Uber/Lyft,126.94,expense,False,Uber/Lyft - Sep 2023
+2023-09-25,Savings,Retirement,135.62,expense,False,Retirement - Sep 2023
+2023-09-27,Housing,Maintenance,323.36,expense,False,Maintenance - Sep 2023
+2023-09-28,Savings,Emergency Fund,109.02,expense,True,Emergency Fund - Sep 2023
+2023-09-30,Housing,Utilities,495.49,expense,False,Utilities - Sep 2023
+2023-09-30,Entertainment,Streaming,182.17,expense,True,Streaming - Sep 2023
+2023-10-02,Healthcare,Insurance,108.95,expense,False,Insurance - Oct 2023
+2023-10-02,Housing,Utilities,637.87,expense,False,Utilities - Oct 2023
+2023-10-02,Education,Tuition,134.49,expense,True,Tuition - Oct 2023
+2023-10-03,Healthcare,Doctor,133.33,expense,False,Doctor - Oct 2023
+2023-10-09,Income,Salary,6434.22,income,True,Monthly Salary - Oct 2023
+2023-10-09,Healthcare,Insurance,88.84,expense,False,Insurance - Oct 2023
+2023-10-09,Education,Subscriptions,40.71,expense,False,Subscriptions - Oct 2023
+2023-10-10,Housing,Utilities,554.62,expense,False,Utilities - Oct 2023
+2023-10-10,Housing,Mortgage,249.65,expense,True,Mortgage - Oct 2023
+2023-10-10,Housing,Rent,612.28,expense,True,Rent - Oct 2023
+2023-10-10,Housing,Utilities,958.08,expense,False,Utilities - Oct 2023
+2023-10-11,Food,Coffee,229.8,expense,False,Coffee - Oct 2023
+2023-10-12,Savings,Emergency Fund,224.13,expense,True,Emergency Fund - Oct 2023
+2023-10-12,Food,Restaurants,190.84,expense,False,Restaurants - Oct 2023
+2023-10-14,Housing,Rent,95.87,expense,True,Rent - Oct 2023
+2023-10-15,Food,Coffee,253.72,expense,False,Coffee - Oct 2023
+2023-10-17,Education,Courses,70.58,expense,False,Courses - Oct 2023
+2023-10-17,Savings,Retirement,205.79,expense,False,Retirement - Oct 2023
+2023-10-19,Food,Coffee,161.19,expense,False,Coffee - Oct 2023
+2023-10-20,Shopping,Personal Care,151.01,expense,False,Personal Care - Oct 2023
+2023-10-21,Miscellaneous,Charity,243.86,expense,False,Charity - Oct 2023
+2023-10-21,Healthcare,Pharmacy,164.53,expense,False,Pharmacy - Oct 2023
+2023-10-23,Healthcare,Pharmacy,197.15,expense,False,Pharmacy - Oct 2023
+2023-10-24,Shopping,Clothing,172.6,expense,False,Clothing - Oct 2023
+2023-10-24,Entertainment,Movies,159.69,expense,False,Movies - Oct 2023
+2023-10-28,Savings,Emergency Fund,174.64,expense,True,Emergency Fund - Oct 2023
+2023-10-28,Miscellaneous,Other,98.83,expense,False,Other - Oct 2023
+2023-10-28,Housing,Utilities,365.83,expense,False,Utilities - Oct 2023
+2023-11-01,Miscellaneous,Charity,73.75,expense,False,Charity - Nov 2023
+2023-11-03,Housing,Rent,98.29,expense,True,Rent - Nov 2023
+2023-11-03,Shopping,Home Goods,367.78,expense,False,Home Goods - Nov 2023
+2023-11-03,Entertainment,Movies,62.71,expense,False,Movies - Nov 2023
+2023-11-03,Food,Restaurants,315.95,expense,False,Restaurants - Nov 2023
+2023-11-04,Housing,Rent,610.51,expense,True,Rent - Nov 2023
+2023-11-07,Housing,Utilities,168.16,expense,False,Utilities - Nov 2023
+2023-11-07,Food,Coffee,328.07,expense,False,Coffee - Nov 2023
+2023-11-08,Income,Salary,6841.19,income,True,Monthly Salary - Nov 2023
+2023-11-08,Transport,Public Transit,80.96,expense,False,Public Transit - Nov 2023
+2023-11-09,Housing,Mortgage,599.26,expense,True,Mortgage - Nov 2023
+2023-11-13,Housing,Mortgage,620.89,expense,True,Mortgage - Nov 2023
+2023-11-15,Entertainment,Streaming,206.87,expense,True,Streaming - Nov 2023
+2023-11-17,Miscellaneous,Pet,99.6,expense,False,Pet - Nov 2023
+2023-11-18,Housing,Maintenance,1184.74,expense,False,Maintenance - Nov 2023
+2023-11-18,Education,Books,34.64,expense,False,Books - Nov 2023
+2023-11-18,Savings,Investments,249.79,expense,True,Investments - Nov 2023
+2023-11-19,Savings,Investments,181.05,expense,True,Investments - Nov 2023
+2023-11-20,Housing,Utilities,944.19,expense,False,Utilities - Nov 2023
+2023-11-20,Housing,Utilities,713.97,expense,False,Utilities - Nov 2023
+2023-11-21,Healthcare,Doctor,67.37,expense,False,Doctor - Nov 2023
+2023-11-21,Transport,Public Transit,170.7,expense,False,Public Transit - Nov 2023
+2023-11-22,Transport,Fuel,260.04,expense,False,Fuel - Nov 2023
+2023-11-23,Education,Books,50.46,expense,False,Books - Nov 2023
+2023-11-23,Miscellaneous,Gifts,86.39,expense,False,Gifts - Nov 2023
+2023-11-24,Savings,Investments,256.15,expense,True,Investments - Nov 2023
+2023-11-24,Food,Groceries,386.4,expense,False,Groceries - Nov 2023
+2023-11-24,Healthcare,Insurance,73.28,expense,False,Insurance - Nov 2023
+2023-11-25,Housing,Mortgage,325.79,expense,True,Mortgage - Nov 2023
+2023-11-26,Housing,Mortgage,449.26,expense,True,Mortgage - Nov 2023
+2023-11-26,Savings,Retirement,127.3,expense,False,Retirement - Nov 2023
+2023-11-28,Savings,Emergency Fund,184.23,expense,True,Emergency Fund - Nov 2023
+2023-11-28,Healthcare,Doctor,154.16,expense,False,Doctor - Nov 2023
+2023-11-28,Miscellaneous,Other,250.81,expense,False,Other - Nov 2023
+2023-11-29,Housing,Mortgage,316.81,expense,True,Mortgage - Nov 2023
+2023-11-29,Savings,Investments,213.77,expense,True,Investments - Nov 2023
+2023-12-01,Miscellaneous,Pet,222.05,expense,False,Pet - Dec 2023
+2023-12-01,Miscellaneous,Other,112.02,expense,False,Other - Dec 2023
+2023-12-02,Housing,Utilities,503.81,expense,False,Utilities - Dec 2023
+2023-12-03,Housing,Rent,727.17,expense,True,Rent - Dec 2023
+2023-12-03,Savings,Emergency Fund,179.73,expense,True,Emergency Fund - Dec 2023
+2023-12-03,Shopping,Home Goods,99.73,expense,False,Home Goods - Dec 2023
+2023-12-03,Shopping,Personal Care,63.03,expense,False,Personal Care - Dec 2023
+2023-12-07,Shopping,Clothing,64.79,expense,False,Clothing - Dec 2023
+2023-12-08,Income,Salary,6525.31,income,True,Monthly Salary - Dec 2023
+2023-12-08,Housing,Utilities,270.03,expense,False,Utilities - Dec 2023
+2023-12-10,Shopping,Clothing,81.28,expense,False,Clothing - Dec 2023
+2023-12-10,Savings,Investments,159.23,expense,True,Investments - Dec 2023
+2023-12-10,Healthcare,Doctor,73.43,expense,False,Doctor - Dec 2023
+2023-12-13,Shopping,Clothing,127.31,expense,False,Clothing - Dec 2023
+2023-12-15,Shopping,Personal Care,261.84,expense,False,Personal Care - Dec 2023
+2023-12-16,Housing,Utilities,450.96,expense,False,Utilities - Dec 2023
+2023-12-16,Housing,Maintenance,380.82,expense,False,Maintenance - Dec 2023
+2023-12-17,Housing,Utilities,398.24,expense,False,Utilities - Dec 2023
+2023-12-18,Transport,Uber/Lyft,232.85,expense,False,Uber/Lyft - Dec 2023
+2023-12-18,Housing,Maintenance,756.87,expense,False,Maintenance - Dec 2023
+2023-12-19,Entertainment,Games,51.93,expense,False,Games - Dec 2023
+2023-12-20,Savings,Retirement,104.78,expense,False,Retirement - Dec 2023
+2023-12-22,Transport,Parking,128.41,expense,False,Parking - Dec 2023
+2023-12-23,Transport,Uber/Lyft,213.62,expense,False,Uber/Lyft - Dec 2023
+2023-12-24,Housing,Rent,249.38,expense,True,Rent - Dec 2023
+2023-12-24,Transport,Parking,110.6,expense,False,Parking - Dec 2023
+2023-12-24,Miscellaneous,Pet,60.69,expense,False,Pet - Dec 2023
+2023-12-24,Housing,Mortgage,383.27,expense,True,Mortgage - Dec 2023
+2023-12-25,Housing,Rent,926.59,expense,True,Rent - Dec 2023
+2023-12-27,Housing,Utilities,677.01,expense,False,Utilities - Dec 2023
+2023-12-28,Housing,Rent,728.81,expense,True,Rent - Dec 2023
+2023-12-28,Food,Restaurants,390.09,expense,False,Restaurants - Dec 2023
+2023-12-29,Housing,Utilities,731.88,expense,False,Utilities - Dec 2023
+2023-12-29,Transport,Car Insurance,311.13,expense,True,Car Insurance - Dec 2023
+2023-12-29,Shopping,Personal Care,103.46,expense,False,Personal Care - Dec 2023
+2023-12-30,Entertainment,Streaming,178.4,expense,True,Streaming - Dec 2023
+2024-01-03,Transport,Parking,135.78,expense,False,Parking - Jan 2024
+2024-01-03,Food,Coffee,407.65,expense,False,Coffee - Jan 2024
+2024-01-06,Education,Books,56.98,expense,False,Books - Jan 2024
+2024-01-06,Housing,Maintenance,898.61,expense,False,Maintenance - Jan 2024
+2024-01-06,Miscellaneous,Pet,223.8,expense,False,Pet - Jan 2024
+2024-01-07,Income,Salary,6686.4,income,True,Monthly Salary - Jan 2024
+2024-01-07,Miscellaneous,Gifts,139.77,expense,False,Gifts - Jan 2024
+2024-01-10,Housing,Maintenance,381.53,expense,False,Maintenance - Jan 2024
+2024-01-10,Miscellaneous,Charity,118.38,expense,False,Charity - Jan 2024
+2024-01-13,Savings,Investments,215.3,expense,True,Investments - Jan 2024
+2024-01-16,Housing,Mortgage,945.14,expense,True,Mortgage - Jan 2024
+2024-01-17,Healthcare,Gym,124.8,expense,True,Gym - Jan 2024
+2024-01-19,Savings,Retirement,90.91,expense,False,Retirement - Jan 2024
+2024-01-20,Savings,Investments,113.32,expense,True,Investments - Jan 2024
+2024-01-20,Food,Coffee,361.44,expense,False,Coffee - Jan 2024
+2024-01-21,Shopping,Personal Care,137.34,expense,False,Personal Care - Jan 2024
+2024-01-22,Miscellaneous,Other,93.26,expense,False,Other - Jan 2024
+2024-01-23,Transport,Parking,131.91,expense,False,Parking - Jan 2024
+2024-01-27,Entertainment,Games,213.32,expense,False,Games - Jan 2024
+2024-01-27,Transport,Car Insurance,156.02,expense,True,Car Insurance - Jan 2024
+2024-01-28,Healthcare,Doctor,67.63,expense,False,Doctor - Jan 2024
+2024-01-28,Housing,Maintenance,716.02,expense,False,Maintenance - Jan 2024
+2024-01-29,Entertainment,Movies,233.73,expense,False,Movies - Jan 2024
+2024-02-06,Travel,Flights,87.81,expense,False,Flights - Feb 2024
+2024-02-06,Income,Salary,6684.32,income,True,Monthly Salary - Feb 2024
+2024-02-08,Travel,Activities,22.93,expense,False,Activities - Feb 2024
+2024-02-10,Miscellaneous,Charity,99.79,expense,False,Charity - Feb 2024
+2024-02-10,Housing,Utilities,248.29,expense,False,Utilities - Feb 2024
+2024-02-11,Housing,Maintenance,717.09,expense,False,Maintenance - Feb 2024
+2024-02-13,Housing,Rent,348.02,expense,True,Rent - Feb 2024
+2024-02-13,Healthcare,Doctor,163.36,expense,False,Doctor - Feb 2024
+2024-02-15,Savings,Retirement,124.28,expense,False,Retirement - Feb 2024
+2024-02-16,Miscellaneous,Other,120.45,expense,False,Other - Feb 2024
+2024-02-16,Healthcare,Pharmacy,50.85,expense,False,Pharmacy - Feb 2024
+2024-02-17,Entertainment,Events,94.61,expense,False,Events - Feb 2024
+2024-02-18,Healthcare,Doctor,61.73,expense,False,Doctor - Feb 2024
+2024-02-20,Transport,Parking,133.12,expense,False,Parking - Feb 2024
+2024-02-21,Entertainment,Movies,120.39,expense,False,Movies - Feb 2024
+2024-02-22,Transport,Car Insurance,129.08,expense,True,Car Insurance - Feb 2024
+2024-02-22,Transport,Public Transit,161.91,expense,False,Public Transit - Feb 2024
+2024-02-25,Food,Groceries,168.33,expense,False,Groceries - Feb 2024
+2024-02-25,Food,Groceries,232.17,expense,False,Groceries - Feb 2024
+2024-02-28,Savings,Retirement,186.51,expense,False,Retirement - Feb 2024
+2024-02-29,Food,Restaurants,190.85,expense,False,Restaurants - Feb 2024
+2024-02-29,Food,Coffee,173.5,expense,False,Coffee - Feb 2024
+2024-03-01,Shopping,Electronics,52.49,expense,False,Electronics - Mar 2024
+2024-03-01,Shopping,Home Goods,59.26,expense,False,Home Goods - Mar 2024
+2024-03-02,Healthcare,Insurance,89.73,expense,False,Insurance - Mar 2024
+2024-03-07,Housing,Rent,204.48,expense,True,Rent - Mar 2024
+2024-03-07,Housing,Mortgage,189.76,expense,True,Mortgage - Mar 2024
+2024-03-07,Transport,Parking,119.25,expense,False,Parking - Mar 2024
+2024-03-07,Income,Salary,6144.08,income,True,Monthly Salary - Mar 2024
+2024-03-09,Housing,Maintenance,813.02,expense,False,Maintenance - Mar 2024
+2024-03-09,Healthcare,Insurance,190.53,expense,False,Insurance - Mar 2024
+2024-03-10,Housing,Utilities,539.89,expense,False,Utilities - Mar 2024
+2024-03-11,Entertainment,Events,41.84,expense,False,Events - Mar 2024
+2024-03-11,Shopping,Electronics,119.48,expense,False,Electronics - Mar 2024
+2024-03-12,Housing,Rent,205.13,expense,True,Rent - Mar 2024
+2024-03-12,Food,Delivery,134.33,expense,False,Delivery - Mar 2024
+2024-03-13,Food,Delivery,173.55,expense,False,Delivery - Mar 2024
+2024-03-14,Housing,Utilities,504.37,expense,False,Utilities - Mar 2024
+2024-03-14,Healthcare,Doctor,97.64,expense,False,Doctor - Mar 2024
+2024-03-15,Entertainment,Movies,88.01,expense,False,Movies - Mar 2024
+2024-03-15,Housing,Mortgage,381.86,expense,True,Mortgage - Mar 2024
+2024-03-17,Transport,Car Insurance,155.25,expense,True,Car Insurance - Mar 2024
+2024-03-18,Transport,Uber/Lyft,113.97,expense,False,Uber/Lyft - Mar 2024
+2024-03-18,Transport,Parking,115.85,expense,False,Parking - Mar 2024
+2024-03-18,Shopping,Electronics,162.87,expense,False,Electronics - Mar 2024
+2024-03-19,Travel,Hotels,112.93,expense,False,Hotels - Mar 2024
+2024-03-20,Food,Coffee,150.54,expense,False,Coffee - Mar 2024
+2024-03-21,Miscellaneous,Pet,132.31,expense,False,Pet - Mar 2024
+2024-03-21,Housing,Utilities,253.56,expense,False,Utilities - Mar 2024
+2024-03-22,Food,Groceries,396.47,expense,False,Groceries - Mar 2024
+2024-03-22,Shopping,Personal Care,190.4,expense,False,Personal Care - Mar 2024
+2024-03-23,Food,Groceries,451.87,expense,False,Groceries - Mar 2024
+2024-03-23,Housing,Maintenance,364.61,expense,False,Maintenance - Mar 2024
+2024-03-25,Savings,Retirement,149.99,expense,False,Retirement - Mar 2024
+2024-03-26,Savings,Retirement,87.51,expense,False,Retirement - Mar 2024
+2024-03-26,Savings,Investments,110.83,expense,True,Investments - Mar 2024
+2024-03-28,Housing,Mortgage,561.46,expense,True,Mortgage - Mar 2024
+2024-03-28,Miscellaneous,Pet,65.23,expense,False,Pet - Mar 2024
+2024-03-29,Housing,Rent,564.25,expense,True,Rent - Mar 2024
+2024-03-29,Food,Groceries,217.99,expense,False,Groceries - Mar 2024
+2024-03-30,Food,Restaurants,298.42,expense,False,Restaurants - Mar 2024
+2024-03-30,Housing,Maintenance,384.78,expense,False,Maintenance - Mar 2024
+2024-03-30,Housing,Mortgage,425.73,expense,True,Mortgage - Mar 2024
+2024-03-31,Shopping,Electronics,284.63,expense,False,Electronics - Mar 2024
+2024-04-01,Food,Coffee,184.02,expense,False,Coffee - Apr 2024
+2024-04-05,Savings,Emergency Fund,141.14,expense,True,Emergency Fund - Apr 2024
+2024-04-05,Food,Delivery,200.63,expense,False,Delivery - Apr 2024
+2024-04-05,Entertainment,Streaming,81.09,expense,True,Streaming - Apr 2024
+2024-04-06,Income,Salary,6385.15,income,True,Monthly Salary - Apr 2024
+2024-04-07,Healthcare,Insurance,118.9,expense,False,Insurance - Apr 2024
+2024-04-08,Housing,Maintenance,836.16,expense,False,Maintenance - Apr 2024
+2024-04-08,Food,Delivery,117.03,expense,False,Delivery - Apr 2024
+2024-04-09,Housing,Utilities,322.14,expense,False,Utilities - Apr 2024
+2024-04-09,Housing,Utilities,350.47,expense,False,Utilities - Apr 2024
+2024-04-10,Shopping,Electronics,366.35,expense,False,Electronics - Apr 2024
+2024-04-11,Savings,Emergency Fund,145.22,expense,True,Emergency Fund - Apr 2024
+2024-04-11,Miscellaneous,Other,74.11,expense,False,Other - Apr 2024
+2024-04-12,Shopping,Electronics,164.47,expense,False,Electronics - Apr 2024
+2024-04-12,Shopping,Personal Care,126.98,expense,False,Personal Care - Apr 2024
+2024-04-13,Savings,Retirement,102.0,expense,False,Retirement - Apr 2024
+2024-04-14,Miscellaneous,Charity,63.02,expense,False,Charity - Apr 2024
+2024-04-17,Healthcare,Pharmacy,233.11,expense,False,Pharmacy - Apr 2024
+2024-04-18,Savings,Investments,110.07,expense,True,Investments - Apr 2024
+2024-04-18,Food,Restaurants,327.49,expense,False,Restaurants - Apr 2024
+2024-04-19,Housing,Maintenance,167.45,expense,False,Maintenance - Apr 2024
+2024-04-21,Miscellaneous,Pet,86.89,expense,False,Pet - Apr 2024
+2024-04-22,Savings,Retirement,175.05,expense,False,Retirement - Apr 2024
+2024-04-24,Food,Delivery,255.09,expense,False,Delivery - Apr 2024
+2024-04-25,Food,Delivery,182.51,expense,False,Delivery - Apr 2024
+2024-04-26,Food,Groceries,181.05,expense,False,Groceries - Apr 2024
+2024-04-26,Housing,Mortgage,281.5,expense,True,Mortgage - Apr 2024
+2024-04-27,Savings,Retirement,302.69,expense,False,Retirement - Apr 2024
+2024-04-27,Housing,Maintenance,300.31,expense,False,Maintenance - Apr 2024
+2024-04-27,Transport,Parking,109.16,expense,False,Parking - Apr 2024
+2024-04-28,Housing,Maintenance,574.12,expense,False,Maintenance - Apr 2024
+2024-04-29,Savings,Retirement,26.06,expense,False,Retirement - Apr 2024
+2024-05-02,Savings,Investments,222.81,expense,True,Investments - May 2024
+2024-05-02,Transport,Public Transit,104.9,expense,False,Public Transit - May 2024
+2024-05-02,Transport,Fuel,123.97,expense,False,Fuel - May 2024
+2024-05-05,Housing,Maintenance,329.13,expense,False,Maintenance - May 2024
+2024-05-05,Housing,Rent,233.14,expense,True,Rent - May 2024
+2024-05-06,Income,Salary,6753.72,income,True,Monthly Salary - May 2024
+2024-05-06,Savings,Emergency Fund,165.65,expense,True,Emergency Fund - May 2024
+2024-05-07,Food,Delivery,304.45,expense,False,Delivery - May 2024
+2024-05-09,Housing,Utilities,794.78,expense,False,Utilities - May 2024
+2024-05-11,Miscellaneous,Charity,66.69,expense,False,Charity - May 2024
+2024-05-13,Miscellaneous,Gifts,74.83,expense,False,Gifts - May 2024
+2024-05-13,Housing,Maintenance,402.51,expense,False,Maintenance - May 2024
+2024-05-14,Savings,Investments,182.31,expense,True,Investments - May 2024
+2024-05-15,Transport,Parking,64.1,expense,False,Parking - May 2024
+2024-05-15,Food,Delivery,268.65,expense,False,Delivery - May 2024
+2024-05-15,Education,Books,65.83,expense,False,Books - May 2024
+2024-05-16,Travel,Hotels,65.83,expense,False,Hotels - May 2024
+2024-05-18,Food,Restaurants,136.96,expense,False,Restaurants - May 2024
+2024-05-20,Housing,Mortgage,366.19,expense,True,Mortgage - May 2024
+2024-05-20,Food,Delivery,216.38,expense,False,Delivery - May 2024
+2024-05-22,Healthcare,Pharmacy,121.09,expense,False,Pharmacy - May 2024
+2024-05-23,Miscellaneous,Pet,75.74,expense,False,Pet - May 2024
+2024-05-23,Housing,Maintenance,760.29,expense,False,Maintenance - May 2024
+2024-05-23,Housing,Utilities,232.51,expense,False,Utilities - May 2024
+2024-05-24,Transport,Fuel,227.68,expense,False,Fuel - May 2024
+2024-05-25,Travel,Hotels,79.96,expense,False,Hotels - May 2024
+2024-05-26,Transport,Uber/Lyft,203.15,expense,False,Uber/Lyft - May 2024
+2024-05-28,Transport,Parking,95.79,expense,False,Parking - May 2024
+2024-05-29,Housing,Rent,470.21,expense,True,Rent - May 2024
+2024-05-29,Healthcare,Insurance,197.45,expense,False,Insurance - May 2024
+2024-05-31,Housing,Utilities,337.34,expense,False,Utilities - May 2024
+2024-06-04,Transport,Car Insurance,119.24,expense,True,Car Insurance - Jun 2024
+2024-06-05,Food,Delivery,296.97,expense,False,Delivery - Jun 2024
+2024-06-05,Income,Salary,6617.53,income,True,Monthly Salary - Jun 2024
+2024-06-06,Housing,Rent,672.79,expense,True,Rent - Jun 2024
+2024-06-07,Savings,Emergency Fund,245.75,expense,True,Emergency Fund - Jun 2024
+2024-06-09,Shopping,Home Goods,306.12,expense,False,Home Goods - Jun 2024
+2024-06-09,Housing,Rent,503.29,expense,True,Rent - Jun 2024
+2024-06-09,Housing,Maintenance,402.06,expense,False,Maintenance - Jun 2024
+2024-06-10,Savings,Emergency Fund,96.42,expense,True,Emergency Fund - Jun 2024
+2024-06-10,Housing,Rent,330.01,expense,True,Rent - Jun 2024
+2024-06-11,Transport,Uber/Lyft,79.94,expense,False,Uber/Lyft - Jun 2024
+2024-06-13,Healthcare,Pharmacy,82.17,expense,False,Pharmacy - Jun 2024
+2024-06-14,Food,Restaurants,221.02,expense,False,Restaurants - Jun 2024
+2024-06-16,Shopping,Electronics,213.45,expense,False,Electronics - Jun 2024
+2024-06-17,Savings,Emergency Fund,395.02,expense,True,Emergency Fund - Jun 2024
+2024-06-17,Housing,Mortgage,771.83,expense,True,Mortgage - Jun 2024
+2024-06-18,Shopping,Home Goods,112.66,expense,False,Home Goods - Jun 2024
+2024-06-19,Housing,Rent,618.59,expense,True,Rent - Jun 2024
+2024-06-19,Housing,Rent,884.97,expense,True,Rent - Jun 2024
+2024-06-20,Housing,Mortgage,248.89,expense,True,Mortgage - Jun 2024
+2024-06-22,Housing,Rent,242.55,expense,True,Rent - Jun 2024
+2024-06-25,Entertainment,Movies,46.31,expense,False,Movies - Jun 2024
+2024-06-25,Shopping,Personal Care,149.1,expense,False,Personal Care - Jun 2024
+2024-06-27,Healthcare,Doctor,82.16,expense,False,Doctor - Jun 2024
+2024-06-29,Savings,Investments,146.21,expense,True,Investments - Jun 2024
+2024-06-29,Transport,Car Insurance,150.38,expense,True,Car Insurance - Jun 2024
+2024-06-30,Housing,Rent,616.39,expense,True,Rent - Jun 2024
+2024-07-01,Shopping,Electronics,239.12,expense,False,Electronics - Jul 2024
+2024-07-05,Income,Salary,5868.56,income,True,Monthly Salary - Jul 2024
+2024-07-05,Entertainment,Streaming,50.79,expense,True,Streaming - Jul 2024
+2024-07-08,Transport,Uber/Lyft,235.75,expense,False,Uber/Lyft - Jul 2024
+2024-07-08,Miscellaneous,Gifts,172.74,expense,False,Gifts - Jul 2024
+2024-07-08,Housing,Maintenance,466.4,expense,False,Maintenance - Jul 2024
+2024-07-08,Housing,Rent,350.24,expense,True,Rent - Jul 2024
+2024-07-09,Food,Groceries,232.53,expense,False,Groceries - Jul 2024
+2024-07-10,Housing,Rent,414.03,expense,True,Rent - Jul 2024
+2024-07-10,Shopping,Clothing,155.41,expense,False,Clothing - Jul 2024
+2024-07-10,Housing,Utilities,654.47,expense,False,Utilities - Jul 2024
+2024-07-12,Education,Courses,61.39,expense,False,Courses - Jul 2024
+2024-07-14,Transport,Car Insurance,130.63,expense,True,Car Insurance - Jul 2024
+2024-07-15,Miscellaneous,Other,51.27,expense,False,Other - Jul 2024
+2024-07-17,Housing,Maintenance,215.01,expense,False,Maintenance - Jul 2024
+2024-07-19,Housing,Mortgage,215.05,expense,True,Mortgage - Jul 2024
+2024-07-21,Housing,Mortgage,208.66,expense,True,Mortgage - Jul 2024
+2024-07-22,Shopping,Home Goods,134.39,expense,False,Home Goods - Jul 2024
+2024-07-23,Savings,Emergency Fund,311.61,expense,True,Emergency Fund - Jul 2024
+2024-07-23,Transport,Uber/Lyft,246.82,expense,False,Uber/Lyft - Jul 2024
+2024-07-24,Shopping,Personal Care,67.8,expense,False,Personal Care - Jul 2024
+2024-07-24,Healthcare,Gym,141.85,expense,True,Gym - Jul 2024
+2024-07-25,Food,Coffee,283.55,expense,False,Coffee - Jul 2024
+2024-07-27,Travel,Activities,99.1,expense,False,Activities - Jul 2024
+2024-07-27,Healthcare,Pharmacy,178.99,expense,False,Pharmacy - Jul 2024
+2024-07-28,Miscellaneous,Other,101.29,expense,False,Other - Jul 2024
+2024-07-29,Savings,Retirement,187.71,expense,False,Retirement - Jul 2024
+2024-08-03,Housing,Maintenance,223.57,expense,False,Maintenance - Aug 2024
+2024-08-03,Miscellaneous,Charity,95.26,expense,False,Charity - Aug 2024
+2024-08-03,Savings,Investments,187.99,expense,True,Investments - Aug 2024
+2024-08-04,Income,Salary,6398.32,income,True,Monthly Salary - Aug 2024
+2024-08-05,Shopping,Personal Care,270.37,expense,False,Personal Care - Aug 2024
+2024-08-05,Shopping,Clothing,205.08,expense,False,Clothing - Aug 2024
+2024-08-06,Housing,Maintenance,384.29,expense,False,Maintenance - Aug 2024
+2024-08-06,Food,Groceries,270.61,expense,False,Groceries - Aug 2024
+2024-08-08,Savings,Emergency Fund,105.16,expense,True,Emergency Fund - Aug 2024
+2024-08-08,Savings,Retirement,291.72,expense,False,Retirement - Aug 2024
+2024-08-08,Entertainment,Events,107.05,expense,False,Events - Aug 2024
+2024-08-08,Food,Coffee,183.87,expense,False,Coffee - Aug 2024
+2024-08-10,Housing,Rent,270.97,expense,True,Rent - Aug 2024
+2024-08-10,Miscellaneous,Other,111.29,expense,False,Other - Aug 2024
+2024-08-11,Savings,Emergency Fund,113.67,expense,True,Emergency Fund - Aug 2024
+2024-08-11,Entertainment,Games,71.39,expense,False,Games - Aug 2024
+2024-08-11,Healthcare,Insurance,101.95,expense,False,Insurance - Aug 2024
+2024-08-12,Shopping,Home Goods,123.49,expense,False,Home Goods - Aug 2024
+2024-08-14,Transport,Public Transit,225.17,expense,False,Public Transit - Aug 2024
+2024-08-16,Housing,Rent,476.47,expense,True,Rent - Aug 2024
+2024-08-16,Healthcare,Insurance,57.25,expense,False,Insurance - Aug 2024
+2024-08-17,Entertainment,Movies,199.01,expense,False,Movies - Aug 2024
+2024-08-17,Shopping,Home Goods,199.89,expense,False,Home Goods - Aug 2024
+2024-08-18,Travel,Hotels,47.28,expense,False,Hotels - Aug 2024
+2024-08-20,Housing,Mortgage,323.74,expense,True,Mortgage - Aug 2024
+2024-08-21,Food,Delivery,164.18,expense,False,Delivery - Aug 2024
+2024-08-21,Healthcare,Doctor,77.77,expense,False,Doctor - Aug 2024
+2024-08-22,Housing,Utilities,892.83,expense,False,Utilities - Aug 2024
+2024-08-22,Food,Coffee,151.78,expense,False,Coffee - Aug 2024
+2024-08-22,Healthcare,Insurance,144.64,expense,False,Insurance - Aug 2024
+2024-08-23,Food,Restaurants,252.79,expense,False,Restaurants - Aug 2024
+2024-08-23,Housing,Maintenance,182.51,expense,False,Maintenance - Aug 2024
+2024-08-24,Food,Coffee,306.15,expense,False,Coffee - Aug 2024
+2024-08-24,Education,Books,59.0,expense,False,Books - Aug 2024
+2024-08-25,Education,Tuition,121.18,expense,True,Tuition - Aug 2024
+2024-08-25,Housing,Utilities,240.85,expense,False,Utilities - Aug 2024
+2024-08-26,Transport,Parking,180.81,expense,False,Parking - Aug 2024
+2024-08-29,Shopping,Personal Care,148.13,expense,False,Personal Care - Aug 2024
+2024-08-29,Housing,Maintenance,464.03,expense,False,Maintenance - Aug 2024
+2024-08-30,Travel,Hotels,97.54,expense,False,Hotels - Aug 2024
+2024-08-30,Savings,Investments,239.51,expense,True,Investments - Aug 2024
+2024-08-30,Food,Delivery,175.05,expense,False,Delivery - Aug 2024
+2024-08-30,Entertainment,Games,146.14,expense,False,Games - Aug 2024
+2024-08-30,Savings,Emergency Fund,55.17,expense,True,Emergency Fund - Aug 2024
+2024-09-02,Housing,Utilities,245.67,expense,False,Utilities - Sep 2024
+2024-09-02,Housing,Rent,496.46,expense,True,Rent - Sep 2024
+2024-09-03,Miscellaneous,Pet,56.26,expense,False,Pet - Sep 2024
+2024-09-03,Income,Salary,6582.52,income,True,Monthly Salary - Sep 2024
+2024-09-04,Transport,Public Transit,155.48,expense,False,Public Transit - Sep 2024
+2024-09-04,Housing,Maintenance,1015.55,expense,False,Maintenance - Sep 2024
+2024-09-05,Savings,Emergency Fund,158.84,expense,True,Emergency Fund - Sep 2024
+2024-09-05,Savings,Retirement,187.52,expense,False,Retirement - Sep 2024
+2024-09-06,Healthcare,Gym,128.15,expense,True,Gym - Sep 2024
+2024-09-08,Housing,Utilities,961.19,expense,False,Utilities - Sep 2024
+2024-09-09,Housing,Mortgage,614.85,expense,True,Mortgage - Sep 2024
+2024-09-09,Miscellaneous,Gifts,157.63,expense,False,Gifts - Sep 2024
+2024-09-09,Transport,Public Transit,189.7,expense,False,Public Transit - Sep 2024
+2024-09-10,Housing,Utilities,459.56,expense,False,Utilities - Sep 2024
+2024-09-10,Housing,Mortgage,317.08,expense,True,Mortgage - Sep 2024
+2024-09-11,Transport,Car Insurance,83.3,expense,True,Car Insurance - Sep 2024
+2024-09-12,Food,Restaurants,163.65,expense,False,Restaurants - Sep 2024
+2024-09-12,Shopping,Home Goods,175.7,expense,False,Home Goods - Sep 2024
+2024-09-13,Travel,Hotels,78.9,expense,False,Hotels - Sep 2024
+2024-09-13,Education,Tuition,81.16,expense,True,Tuition - Sep 2024
+2024-09-14,Shopping,Personal Care,89.67,expense,False,Personal Care - Sep 2024
+2024-09-14,Housing,Maintenance,384.36,expense,False,Maintenance - Sep 2024
+2024-09-14,Miscellaneous,Pet,86.63,expense,False,Pet - Sep 2024
+2024-09-15,Food,Delivery,157.04,expense,False,Delivery - Sep 2024
+2024-09-16,Entertainment,Events,51.88,expense,False,Events - Sep 2024
+2024-09-18,Food,Restaurants,313.47,expense,False,Restaurants - Sep 2024
+2024-09-19,Savings,Emergency Fund,187.09,expense,True,Emergency Fund - Sep 2024
+2024-09-21,Housing,Utilities,744.87,expense,False,Utilities - Sep 2024
+2024-09-22,Travel,Activities,59.52,expense,False,Activities - Sep 2024
+2024-09-22,Shopping,Electronics,79.92,expense,False,Electronics - Sep 2024
+2024-09-22,Shopping,Clothing,219.6,expense,False,Clothing - Sep 2024
+2024-09-22,Housing,Mortgage,376.23,expense,True,Mortgage - Sep 2024
+2024-09-23,Education,Books,38.42,expense,False,Books - Sep 2024
+2024-09-24,Housing,Utilities,381.46,expense,False,Utilities - Sep 2024
+2024-09-24,Travel,Hotels,83.26,expense,False,Hotels - Sep 2024
+2024-09-25,Transport,Uber/Lyft,104.9,expense,False,Uber/Lyft - Sep 2024
+2024-09-25,Transport,Car Insurance,347.63,expense,True,Car Insurance - Sep 2024
+2024-09-26,Food,Coffee,378.67,expense,False,Coffee - Sep 2024
+2024-09-27,Housing,Utilities,169.74,expense,False,Utilities - Sep 2024
+2024-10-03,Income,Salary,6452.45,income,True,Monthly Salary - Oct 2024
+2024-10-04,Travel,Activities,60.74,expense,False,Activities - Oct 2024
+2024-10-05,Travel,Flights,74.84,expense,False,Flights - Oct 2024
+2024-10-06,Education,Courses,59.61,expense,False,Courses - Oct 2024
+2024-10-06,Transport,Fuel,130.9,expense,False,Fuel - Oct 2024
+2024-10-07,Housing,Rent,409.37,expense,True,Rent - Oct 2024
+2024-10-08,Food,Coffee,75.49,expense,False,Coffee - Oct 2024
+2024-10-09,Education,Courses,57.99,expense,False,Courses - Oct 2024
+2024-10-10,Entertainment,Games,83.74,expense,False,Games - Oct 2024
+2024-10-11,Savings,Emergency Fund,144.58,expense,True,Emergency Fund - Oct 2024
+2024-10-12,Housing,Maintenance,516.75,expense,False,Maintenance - Oct 2024
+2024-10-12,Food,Delivery,349.69,expense,False,Delivery - Oct 2024
+2024-10-12,Food,Coffee,267.09,expense,False,Coffee - Oct 2024
+2024-10-13,Savings,Retirement,167.17,expense,False,Retirement - Oct 2024
+2024-10-13,Healthcare,Doctor,87.93,expense,False,Doctor - Oct 2024
+2024-10-16,Housing,Maintenance,327.31,expense,False,Maintenance - Oct 2024
+2024-10-16,Housing,Rent,357.12,expense,True,Rent - Oct 2024
+2024-10-16,Food,Groceries,129.98,expense,False,Groceries - Oct 2024
+2024-10-17,Healthcare,Pharmacy,101.31,expense,False,Pharmacy - Oct 2024
+2024-10-17,Food,Restaurants,259.09,expense,False,Restaurants - Oct 2024
+2024-10-20,Savings,Investments,79.66,expense,True,Investments - Oct 2024
+2024-10-20,Savings,Emergency Fund,71.82,expense,True,Emergency Fund - Oct 2024
+2024-10-21,Education,Subscriptions,50.32,expense,False,Subscriptions - Oct 2024
+2024-10-22,Shopping,Clothing,53.69,expense,False,Clothing - Oct 2024
+2024-10-22,Shopping,Clothing,183.23,expense,False,Clothing - Oct 2024
+2024-10-24,Savings,Investments,261.41,expense,True,Investments - Oct 2024
+2024-10-24,Food,Coffee,480.17,expense,False,Coffee - Oct 2024
+2024-10-25,Transport,Parking,71.89,expense,False,Parking - Oct 2024
+2024-10-25,Healthcare,Pharmacy,118.93,expense,False,Pharmacy - Oct 2024
+2024-10-26,Savings,Emergency Fund,146.25,expense,True,Emergency Fund - Oct 2024
+2024-10-27,Transport,Uber/Lyft,71.6,expense,False,Uber/Lyft - Oct 2024
+2024-10-28,Transport,Public Transit,395.85,expense,False,Public Transit - Oct 2024
+2024-10-29,Food,Restaurants,238.36,expense,False,Restaurants - Oct 2024
+2024-10-29,Transport,Parking,191.62,expense,False,Parking - Oct 2024
+2024-11-01,Savings,Emergency Fund,221.04,expense,True,Emergency Fund - Nov 2024
+2024-11-02,Income,Salary,6649.44,income,True,Monthly Salary - Nov 2024
+2024-11-02,Savings,Investments,119.21,expense,True,Investments - Nov 2024
+2024-11-02,Savings,Investments,167.33,expense,True,Investments - Nov 2024
+2024-11-04,Savings,Investments,124.48,expense,True,Investments - Nov 2024
+2024-11-04,Housing,Maintenance,222.38,expense,False,Maintenance - Nov 2024
+2024-11-05,Shopping,Electronics,136.33,expense,False,Electronics - Nov 2024
+2024-11-06,Transport,Uber/Lyft,128.68,expense,False,Uber/Lyft - Nov 2024
+2024-11-07,Food,Coffee,188.09,expense,False,Coffee - Nov 2024
+2024-11-07,Housing,Mortgage,421.37,expense,True,Mortgage - Nov 2024
+2024-11-08,Savings,Retirement,103.7,expense,False,Retirement - Nov 2024
+2024-11-08,Housing,Rent,162.63,expense,True,Rent - Nov 2024
+2024-11-08,Housing,Maintenance,956.27,expense,False,Maintenance - Nov 2024
+2024-11-10,Entertainment,Movies,55.28,expense,False,Movies - Nov 2024
+2024-11-10,Housing,Mortgage,534.16,expense,True,Mortgage - Nov 2024
+2024-11-11,Transport,Uber/Lyft,84.27,expense,False,Uber/Lyft - Nov 2024
+2024-11-12,Miscellaneous,Other,189.33,expense,False,Other - Nov 2024
+2024-11-14,Housing,Mortgage,887.15,expense,True,Mortgage - Nov 2024
+2024-11-14,Housing,Mortgage,375.16,expense,True,Mortgage - Nov 2024
+2024-11-14,Travel,Activities,88.54,expense,False,Activities - Nov 2024
+2024-11-14,Food,Delivery,286.44,expense,False,Delivery - Nov 2024
+2024-11-16,Shopping,Clothing,141.2,expense,False,Clothing - Nov 2024
+2024-11-16,Housing,Mortgage,44.39,expense,True,Mortgage - Nov 2024
+2024-11-17,Shopping,Clothing,349.62,expense,False,Clothing - Nov 2024
+2024-11-17,Transport,Parking,253.31,expense,False,Parking - Nov 2024
+2024-11-18,Healthcare,Gym,121.67,expense,True,Gym - Nov 2024
+2024-11-19,Savings,Emergency Fund,99.46,expense,True,Emergency Fund - Nov 2024
+2024-11-19,Transport,Car Insurance,114.78,expense,True,Car Insurance - Nov 2024
+2024-11-20,Miscellaneous,Gifts,77.33,expense,False,Gifts - Nov 2024
+2024-11-21,Healthcare,Pharmacy,96.71,expense,False,Pharmacy - Nov 2024
+2024-11-22,Travel,Activities,72.71,expense,False,Activities - Nov 2024
+2024-11-22,Education,Tuition,95.91,expense,True,Tuition - Nov 2024
+2024-11-24,Healthcare,Insurance,248.06,expense,False,Insurance - Nov 2024
+2024-11-24,Healthcare,Insurance,59.98,expense,False,Insurance - Nov 2024
+2024-11-25,Housing,Rent,378.63,expense,True,Rent - Nov 2024
+2024-11-25,Food,Restaurants,342.46,expense,False,Restaurants - Nov 2024
+2024-11-26,Housing,Maintenance,513.44,expense,False,Maintenance - Nov 2024
+2024-11-27,Housing,Mortgage,871.39,expense,True,Mortgage - Nov 2024
+2024-11-28,Housing,Utilities,259.92,expense,False,Utilities - Nov 2024
+2024-12-01,Entertainment,Games,122.44,expense,False,Games - Dec 2024
+2024-12-02,Entertainment,Games,121.26,expense,False,Games - Dec 2024
+2024-12-02,Shopping,Clothing,125.02,expense,False,Clothing - Dec 2024
+2024-12-02,Income,Salary,5989.18,income,True,Monthly Salary - Dec 2024
+2024-12-03,Food,Delivery,195.69,expense,False,Delivery - Dec 2024
+2024-12-06,Housing,Maintenance,279.74,expense,False,Maintenance - Dec 2024
+2024-12-07,Food,Delivery,223.01,expense,False,Delivery - Dec 2024
+2024-12-09,Healthcare,Pharmacy,66.34,expense,False,Pharmacy - Dec 2024
+2024-12-10,Savings,Emergency Fund,103.32,expense,True,Emergency Fund - Dec 2024
+2024-12-10,Entertainment,Streaming,70.99,expense,True,Streaming - Dec 2024
+2024-12-11,Housing,Mortgage,552.53,expense,True,Mortgage - Dec 2024
+2024-12-11,Housing,Rent,208.62,expense,True,Rent - Dec 2024
+2024-12-11,Shopping,Personal Care,133.95,expense,False,Personal Care - Dec 2024
+2024-12-11,Housing,Rent,713.78,expense,True,Rent - Dec 2024
+2024-12-12,Transport,Uber/Lyft,177.18,expense,False,Uber/Lyft - Dec 2024
+2024-12-12,Food,Restaurants,66.18,expense,False,Restaurants - Dec 2024
+2024-12-12,Housing,Rent,227.45,expense,True,Rent - Dec 2024
+2024-12-13,Miscellaneous,Other,217.76,expense,False,Other - Dec 2024
+2024-12-15,Housing,Mortgage,539.0,expense,True,Mortgage - Dec 2024
+2024-12-15,Savings,Investments,129.43,expense,True,Investments - Dec 2024
+2024-12-15,Transport,Parking,114.56,expense,False,Parking - Dec 2024
+2024-12-17,Travel,Activities,56.77,expense,False,Activities - Dec 2024
+2024-12-18,Housing,Mortgage,399.99,expense,True,Mortgage - Dec 2024
+2024-12-18,Savings,Investments,154.66,expense,True,Investments - Dec 2024
+2024-12-19,Travel,Hotels,177.24,expense,False,Hotels - Dec 2024
+2024-12-20,Savings,Emergency Fund,287.84,expense,True,Emergency Fund - Dec 2024
+2024-12-21,Transport,Uber/Lyft,113.78,expense,False,Uber/Lyft - Dec 2024
+2024-12-21,Housing,Maintenance,405.4,expense,False,Maintenance - Dec 2024
+2024-12-21,Housing,Utilities,497.98,expense,False,Utilities - Dec 2024
+2024-12-21,Housing,Maintenance,205.85,expense,False,Maintenance - Dec 2024
+2024-12-22,Housing,Utilities,464.52,expense,False,Utilities - Dec 2024
+2024-12-22,Entertainment,Games,63.41,expense,False,Games - Dec 2024
+2024-12-22,Housing,Utilities,611.59,expense,False,Utilities - Dec 2024
+2024-12-22,Healthcare,Doctor,51.06,expense,False,Doctor - Dec 2024
+2024-12-23,Entertainment,Streaming,30.89,expense,True,Streaming - Dec 2024
+2024-12-24,Savings,Retirement,205.25,expense,False,Retirement - Dec 2024
+2024-12-24,Entertainment,Movies,81.06,expense,False,Movies - Dec 2024
+2024-12-25,Healthcare,Pharmacy,138.65,expense,False,Pharmacy - Dec 2024
+2024-12-25,Savings,Emergency Fund,165.48,expense,True,Emergency Fund - Dec 2024
+2024-12-26,Shopping,Personal Care,229.29,expense,False,Personal Care - Dec 2024
+2024-12-28,Housing,Maintenance,174.3,expense,False,Maintenance - Dec 2024
+2024-12-28,Miscellaneous,Other,211.3,expense,False,Other - Dec 2024
+2024-12-28,Savings,Emergency Fund,307.66,expense,True,Emergency Fund - Dec 2024
