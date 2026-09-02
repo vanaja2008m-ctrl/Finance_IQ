@@ -9,9 +9,9 @@ def get_hf_client():
     if not token or token == "your_huggingface_token_here":
         return None
         
-    # Switched to Phi-3-mini: Highly reliable, fast, and fully supported on the free HF Inference API
+    # Using google/gemma-2b-it - lightweight, fast, and universally available on free tier
     return InferenceClient(
-        model="microsoft/Phi-3-mini-4k-instruct",
+        model="google/gemma-2b-it",
         token=token
     )
 
