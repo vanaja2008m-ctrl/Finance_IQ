@@ -10,7 +10,7 @@ from utils.data_generator import generate_finance_data
 from utils.analytics import compute_expense_eda, kmeans_financial_segmentation, spending_pattern_analysis
 from utils.ml_model import engineer_features, train_spending_model, predict_next_month
 from utils.advisor import generate_budget_advice
-from utils.finance_llm import load_finance_llm, generate_financial_response
+from utils.finance_llm import generate_financial_response
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -107,8 +107,6 @@ with st.sidebar:
                     if "is_recurring" not in df_up.columns: df_up["is_recurring"] = False
                     if "subcategory" not in df_up.columns: df_up["subcategory"] = df_up["category"]
                     if "description" not in df_up.columns: df_up["description"] = ""
-                    exp = df_up[df_up["type"]=="expense"]
-                    inc = df_up[df_up["type"]=="income"]
                     df_up["month_key"] = df_up["date"].dt.to_period("M").astype(str)
                     monthly = df_up.groupby("month_key").apply(lambda g: pd.Series({
                         "month": pd.to_datetime(g["month_key"].iloc[0]),
@@ -120,7 +118,7 @@ with st.sidebar:
                     monthly["savings_rate"] = (monthly["savings"] / monthly["income"].replace(0,1) * 100).round(1)
                     st.session_state.df_tx = df_up
                     st.session_state.df_monthly = monthly
-                    st.session_state.meta = {"profile":"Custom","avg_monthly_income": monthly["income"].mean(),"target_save_rate":20}
+                    st.session_state.meta = {"profile":"Custom","avg_monthly_income": float(monthly["income"].mean()),"target_save_rate":20}
                     st.session_state.data_ready = True
                     st.success(f"✅ {len(df_up)} rows loaded")
             except Exception as e:
@@ -181,9 +179,7 @@ def not_ready(msg="👈 Generate sample data or upload CSV, then click **Run Ful
     st.stop()
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGES (Dashboard, Analytics, Segments, Trends, ML Predictions, Advisor, Insights)
-# [Existing page logic preserved exactly as in original app.py for brevity, 
-#  with the new AI Advisor page appended below]
+# PAGES
 # ══════════════════════════════════════════════════════════════════════════════
 
 if page == "🏠 Dashboard":
@@ -196,7 +192,24 @@ if page == "🏠 Dashboard":
     c3.metric("💰 Total Savings", f"₹{eda['total_savings']:,.0f}")
     c4.metric("📊 Savings Rate", f"{eda['overall_savings_rate']:.1f}%")
     c5.metric("🏆 Financial Score", f"{advice['financial_score']}/100")
-    # ... (Rest of Dashboard logic remains identical to original, adapted with ₹ for consistency if desired, but original $ is fine. Kept original structure.)
+    
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        section("📈 Income vs Expenses Over Time")
+        dm = st.session_state.df_seg
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x=dm["month"].astype(str), y=dm["income"], name="Income", marker_color="#00D4AA", opacity=0.85))
+        fig.add_trace(go.Bar(x=dm["month"].astype(str), y=dm["expenses"], name="Expenses", marker_color="#EF4444", opacity=0.85))
+        fig.add_trace(go.Scatter(x=dm["month"].astype(str), y=dm["savings"], name="Savings", line=dict(color="#7B61FF", width=2.5), mode="lines+markers"))
+        fig.update_layout(**PT, barmode="group", title="Monthly Financial Overview", height=340)
+        st.plotly_chart(fig, use_container_width=True)
+    with col2:
+        section("💳 Spending by Category")
+        cat_df = eda["cat_summary"].head(8)
+        fig2 = px.pie(cat_df, values="Total", names="category", color_discrete_sequence=COLORS, hole=0.45)
+        fig2.update_traces(textposition="inside", textinfo="percent+label", textfont_size=11)
+        fig2.update_layout(**PT, height=340, showlegend=False)
+        st.plotly_chart(fig2, use_container_width=True)
 
 elif page == "🔍 Expense Analytics":
     if not st.session_state.model_ready: not_ready()
@@ -222,7 +235,14 @@ elif page == "🔍 Expense Analytics":
             fig2 = px.treemap(cat_df, path=["category"], values="Total", color="Pct", color_continuous_scale="teal", title="Spending Treemap")
             fig2.update_layout(**PT, height=420)
             st.plotly_chart(fig2, use_container_width=True)
-    # ... (Other tabs preserved from original)
+    with tab2:
+        section("Monthly Income vs Expenses")
+        dm = eda["monthly_trend"]
+        fig3 = go.Figure()
+        fig3.add_trace(go.Scatter(x=dm["month_str"], y=dm["income"], name="Income", line=dict(color="#00D4AA", width=2.5), fill="tozeroy", fillcolor="rgba(0,212,170,0.08)"))
+        fig3.add_trace(go.Scatter(x=dm["month_str"], y=dm["expenses"], name="Expenses", line=dict(color="#EF4444", width=2.5), fill="tozeroy", fillcolor="rgba(239,68,68,0.08)"))
+        fig3.update_layout(**PT, title="Monthly Financial Flow", height=380)
+        st.plotly_chart(fig3, use_container_width=True)
 
 elif page == "👥 Financial Segments":
     if not st.session_state.model_ready: not_ready()
@@ -234,7 +254,10 @@ elif page == "👥 Financial Segments":
         fig = px.scatter(df_seg, x="expenses", y="savings", color="segment", size="income", color_discrete_sequence=COLORS, hover_data=["income","savings_rate","n_transactions"], title="Expense vs Savings Clusters")
         fig.update_layout(**PT, height=380)
         st.plotly_chart(fig, use_container_width=True)
-    # ... (Preserved)
+    with col2:
+        fig2 = px.scatter(df_seg, x="income", y="savings_rate", color="segment", size="expenses", color_discrete_sequence=COLORS, title="Income vs Savings Rate")
+        fig2.update_layout(**PT, height=380)
+        st.plotly_chart(fig2, use_container_width=True)
 
 elif page == "📈 Spending Trends":
     if not st.session_state.model_ready: not_ready()
@@ -246,7 +269,6 @@ elif page == "📈 Spending Trends":
         fig = px.imshow(cat_monthly.T, color_continuous_scale="teal", aspect="auto", title="Spending Heatmap")
         fig.update_layout(**PT, height=400)
         st.plotly_chart(fig, use_container_width=True)
-    # ... (Preserved)
 
 elif page == "🤖 ML Predictions":
     if not st.session_state.model_ready: not_ready()
@@ -258,7 +280,15 @@ elif page == "🤖 ML Predictions":
     c2.metric("📐 RMSE", f"₹{m['rmse']:,.0f}")
     c3.metric("🎯 R² Score", f"{m['r2']:.3f}")
     c4.metric("🔁 CV MAE (5-fold)", f"₹{m['cv_mae']:,.0f}")
-    # ... (Preserved)
+    section("Next Month Spending Forecast")
+    pct = pred["pct_change"]
+    c = "#EF4444" if pct > 10 else "#10B981" if pct < -5 else "#F59E0B"
+    st.markdown(f"""<div class="pred-box" style="margin-top:10px; max-width: 400px;">
+        <div style="color:#94A3B8;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em">Predicted Spend</div>
+        <div class="pred-amount">₹{pred['predicted_spend']:,.0f}</div>
+        <div style="color:{c};font-size:1.2rem;font-weight:700;margin-top:8px">{'+' if pct>0 else ''}{pct:.1f}%</div>
+        <div style="color:#475569;font-size:0.78rem;margin-top:6px">vs last month: ₹{pred['last_actual_spend']:,.0f}</div>
+    </div>""", unsafe_allow_html=True)
 
 elif page == "🧠 AI Budget Advisor":
     if not st.session_state.model_ready: not_ready()
@@ -271,36 +301,30 @@ elif page == "🧠 AI Budget Advisor":
         st.markdown(f"""<div class="health-score"><div style="font-size:3rem">{advice['health_icon']}</div><div class="score-number">{advice['financial_score']}</div><div class="score-label">{advice['score_label']}</div></div>""", unsafe_allow_html=True)
     with col2:
         st.markdown(f'<div class="advice-card info">{advice["health_msg"]}</div>', unsafe_allow_html=True)
-    # ... (Preserved)
+        for bullet in advice["summary_bullets"]:
+            st.markdown(f'<div class="advice-card" style="border-left:3px solid #1E3A5F;padding:10px 14px;font-size:0.85rem;color:#CBD5E1">{bullet}</div>', unsafe_allow_html=True)
 
 elif page == "💡 Insights & Alerts":
     if not st.session_state.model_ready: not_ready()
     st.markdown("# 💡 Financial Insights & Alerts")
-    advice, eda, dm = st.session_state.advice, st.session_state.eda, st.session_state.df_seg
+    advice, eda = st.session_state.advice, st.session_state.eda
     section("🚨 Real-Time Spending Alerts")
     if advice["spending_alerts"]:
         for a in advice["spending_alerts"]:
             css = "alert-spike" if a["type"] in ("spike","critical") else "alert-warning" if a["type"] == "warning" else "alert-positive"
             st.markdown(f'<div class="alert-box {css}">{a["icon"]} {a["msg"]}</div>', unsafe_allow_html=True)
-    # ... (Preserved)
-
+    else:
+        st.markdown('<div class="alert-box alert-positive">✅ No critical spending alerts this period. Keep up the good work!</div>', unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
-# NEW PAGE: FINANCEIQ AI ADVISOR
+# NEW PAGE: FINANCEIQ AI ADVISOR (Clean, API-Only Version)
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "🤖 FinanceIQ AI Advisor":
     st.markdown("# 🤖 FinanceIQ AI Advisor")
-    st.markdown("Your personal AI financial assistant, powered by a local Hugging Face LLM.")
+    st.markdown("Your personal AI financial assistant, powered by Hugging Face (Zero local RAM usage).")
     
     if not st.session_state.model_ready:
         st.info("👈 Generate sample data or upload CSV, then click **Run Full Analysis** to enable AI features.")
-        st.stop()
-        
-    with st.spinner("Loading FinanceIQ AI Model (this may take a moment on first run)..."):
-        tokenizer, model = load_finance_llm()
-        
-    if tokenizer is None or model is None:
-        st.error("Unable to load FinanceIQ AI model. Please check your Python environment and Hugging Face dependencies. You may need more RAM or a GPU.")
         st.stop()
         
     eda = st.session_state.eda
@@ -361,6 +385,7 @@ Predicted Change: {pct_change:+.1f}%
             st.markdown(user_input)
         with st.chat_message("assistant"):
             with st.spinner("AI is analyzing your financial data..."):
+                # Calls the lightweight API function directly
                 response = generate_financial_response(user_input, financial_context)
                 st.markdown(response)
                 st.session_state.chat_history.append({"role": "assistant", "content": response})
